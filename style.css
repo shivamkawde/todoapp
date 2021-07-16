@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: tomato;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    /* background-color:snow; */
+    position: absolute;
+    left: 20%;     
+}
+
+.manu{
+    
+    display: flex;  
+    margin-top: 2%;
+    
+}
+.items{
+    height: 30%;
+    width: 17%;
+    background-color: yellow;
+    margin: 2px;
+    text-align: center;
+    padding: 10px;
+}
+.tocas{
+    height: 60%;
+    width: 69%;
+    margin-top:2% ;
+    background-color: yellowgreen;
+    position: relative;
+    margin-left: 2px;  
+    display: flex;  
+    
+}
+#to{
+    height: 100%;
+    width: 55%;
+}
+
+.price1{
+    text-align: center;
+    padding: 10%;
+    height: 52%;
+    width: 45%;
+    margin-right: 5%;   
+
+    background-color: rgb(218, 218, 116);
+    position: absolute;
+    left: 55%;
+    top: 1px;
+   
+}
+.price2{
+    padding: 10%;
+     text-align: center;
+    height: 50%;
+    width: 45%;
+    background-color: brown;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+}
+
+
+.card{
+    height: 30%;
+    width: 69%;
+    
+    display: flex;
+}
+.cards{
+
+    height: 90%;
+    width: 50%;
+    background-color: whitesmoke;
+    margin-right: 2px;
+    margin-top: 2%;
+    
+    /* align-items: center; */
+
+}
+
+#beer{
+ height: 100%;
+ width: 100%; 
+
+}
+#music{
+    height: 100%;
+    width: 100%;
+}
+
+.nameM{
+    position: absolute;
+    text-align: center;
+    left: 340px;
+    bottom:70px;
+    color: cornsilk;
+    font-size: larger;
+
+}
+.nameB{
+    position: absolute;
+    text-align: center;
+    left: 90px;
+    bottom:60px;
+    font-size: larger;
+
+}
+.alone{
+    height: 45%;
+    width: 69%;
+    background-color: aliceblue;
+  margin-top: 4%;
+ position: absolute;
+ top: 100%;
+ bottom: 3%;
+ 
+}
+.aloneCon{
+ height: 60%;
+ width: 45%;
+ background-color: aliceblue;
+ position: absolute;
+ left: 51%;
+ bottom: 25%;
+ padding: 10px;   
+}
+#teko{
+    height: 100%;
+    width: 50%;
+    
+}
+
+
+
+ .gal{
+    height: 10%;
+    width: 10%;
+    background-color: chartreuse;
+    margin-left: 2px;
+} 
+
+
+
+
+
